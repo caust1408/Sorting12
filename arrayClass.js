@@ -13,10 +13,16 @@ function Carray(numElements) {
 	this.bubbleSort = bubbleSort;
 	this.insertionSort = insertionSort;
 	this.selectionSort = selectionSort;
+	this.setGaps = setGaps;
+	this.shellSort = shellSort;
+	this.gaps = [5,3,1];
 
 	for (var i = 0; i < numElements; ++i) {
 		this.dataStore[i] = i;
 	}
+}
+function setGaps(arr) {
+	this.gaps = arr;
 }
 
 function setData() {
