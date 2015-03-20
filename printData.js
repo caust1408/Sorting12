@@ -1,5 +1,6 @@
 load('arrayClass.js');
 load('shellsort.js');
+load('shellsort2.js');
 var numElements = 10;
 var nums = new Carray(numElements);
 
@@ -7,7 +8,7 @@ nums.setData();
 print('Before: \n');
 print(nums.toString());
 print('\nDuring: \n');
-nums.shellSort();
+nums.shellSort2();
 print('\nAfter: \n');
 print(nums.toString());
 
