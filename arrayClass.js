@@ -16,6 +16,7 @@ function Carray(numElements) {
 	this.setGaps = setGaps;
 	this.shellSort = shellSort;
 	this.gaps = [5,3,1];
+	this.shellSort2 = shellSort2;
 
 	for (var i = 0; i < numElements; ++i) {
 		this.dataStore[i] = i;
