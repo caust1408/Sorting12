@@ -1,14 +1,15 @@
 load('arrayClass.js');
 load('shellsort.js');
 load('shellsort2.js');
-var numElements = 10;
+load('mergesort2.js');
+var numElements = 100;
 var nums = new Carray(numElements);
 
 nums.setData();
 print('Before: \n');
 print(nums.toString());
 print('\nDuring: \n');
-nums.shellSort2();
+nums.mergeSort();
 print('\nAfter: \n');
 print(nums.toString());
 
