@@ -1,8 +1,10 @@
 # Sorting12
 Craig Austgen
-This is chapter 12 for CMP341 DSA
-This is ran with d8 
-run the printData file
-Going into the printData file and you can change which sorting algorithm you wish to use
+Turned in: 3-23-15
+Assignment: Chapter 12 for sorting code for CMP341 DSA
+Ran with: d8 
+File(s) to run: printData.js
 
-Each sort algorithm sorts an array of random numbers 
+How it works:
+Most of the sorting algorithms are implemented in the arrayClass.js file except for qsort, that file is ran on it's own(using d8). To change which algorithm to use simplycomment out the one you wish you use. 
+
