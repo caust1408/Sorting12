@@ -2,7 +2,7 @@ load('arrayClass.js');
 load('shellsort.js');
 load('shellsort2.js');
 load('mergesort2.js');
-var numElements = 10000;
+var numElements = 10;
 var nums = new Carray(numElements);
 
 /*
