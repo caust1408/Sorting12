@@ -1,5 +1,6 @@
 # Sorting12
 Craig Austgen
+Class:CMP344
 Turned in: 3-23-15
 Assignment: Chapter 12 for sorting code for CMP341 DSA
 Ran with: d8 
